@@ -2,7 +2,7 @@
 Ethereum Project - Coffee Supply Chain
 
 # Project Details
-truffle v5.0.28 (core: 5.0.28)  
+Truffle v5.0.28 (core: 5.0.28)  
 Solidity v0.5.0 (solc-js)  
 Node v11.1.0  
 Web3.js v1.0.0-beta.37  
