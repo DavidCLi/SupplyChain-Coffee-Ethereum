@@ -8,5 +8,5 @@ Node v11.1.0
 Web3.js v1.0.0-beta.37  
 
 # Contract Details
-Transaction ID: 0xb85e72fcc427587588ef997ee4b47f8a7be165e5d40e9bbe1b496fdcb5ec6ffe  
-Contract Address: 0xdCd90343f32e9D8BBcF7f483fB7d45d1Ee0128A1  
+Transaction ID: 0xdb05fb4743b85015d6aa08842e8d3667b4468fa42a462e233290a86370cd35ae  
+Contract Address: 0x99467dee5A51F15218d6e2DA5f74DB0D253C137E  
