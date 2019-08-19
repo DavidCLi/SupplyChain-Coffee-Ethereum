@@ -46,7 +46,11 @@ contract('SupplyChain', function(accounts) {
     it("Testing smart contract function harvestItem() that allows a farmer to harvest coffee", async() => {
         
         const supplyChain = await SupplyChain.deployed()
-    /* -- event.watch is deprecated     
+
+        // Add farmer address to farmerRole
+        await supplyChain.addFarmer(originFarmerID)
+    
+        /* -- event.watch is deprecated     
         // Declare and Initialize a variable for event
         var eventEmitted = false
 
@@ -167,6 +171,8 @@ contract('SupplyChain', function(accounts) {
     it("Testing smart contract function buyItem() that allows a distributor to buy coffee", async() => {
         const supplyChain = await SupplyChain.deployed()
         
+        // Add distributor address to distributorRole
+        await supplyChain.addDistributor(distributorID)
         // Declare and Initialize a variable for event
         
         // Watch the emitted event Sold()
@@ -227,6 +233,7 @@ contract('SupplyChain', function(accounts) {
     it("Testing smart contract function receiveItem() that allows a retailer to mark coffee received", async() => {
         const supplyChain = await SupplyChain.deployed()
         
+        await supplyChain.addRetailer(retailerID);
         // Declare and Initialize a variable for event
         
         // Watch the emitted event Received()
@@ -258,6 +265,7 @@ contract('SupplyChain', function(accounts) {
     it("Testing smart contract function purchaseItem() that allows a consumer to purchase coffee", async() => {
         const supplyChain = await SupplyChain.deployed()
         
+        await supplyChain.addConsumer(consumerID);
         // Declare and Initialize a variable for event
         
         // Watch the emitted event Purchased()
