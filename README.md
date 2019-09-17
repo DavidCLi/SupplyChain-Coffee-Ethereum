@@ -10,6 +10,18 @@ A supplychain smart contract written in Solidity and deployed on the Rinkeby tes
 5. Consumer purchases the coffee from a retail. Transfering ownership from retailer to consumer.
 ****
 **Contract Diagrams**  
+--- 
+**Activity Diagram**  
+![image](https://github.com/DavidCLi/SupplyChain-Coffee-Ethereum/blob/master/Project%20write-up/Activity_Diagram.jpg)  
+  
+**Sequence Diagram**  
+![image](https://github.com/DavidCLi/SupplyChain-Coffee-Ethereum/blob/master/Project%20write-up/Sequence_Diagram.jpg)  
+  
+**State Diagram**  
+![image](https://github.com/DavidCLi/SupplyChain-Coffee-Ethereum/blob/master/Project%20write-up/State_Diagram.png)  
+  
+**Data Model**  
+![image](https://github.com/DavidCLi/SupplyChain-Coffee-Ethereum/blob/master/Project%20write-up/Data_Model.jpg)  
 ****
 **Project Details**  
 Truffle v5.0.28 (core: 5.0.28)  
