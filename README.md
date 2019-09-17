@@ -46,6 +46,22 @@ A supplychain smart contract written in Solidity and deployed on the Rinkeby tes
 ****
 **Frontend**  
 --- 
+![image](https://github.com/DavidCLi/SupplyChain-Coffee-Ethereum/blob/master/pics/Add_Roles.JPG)    
+![image](https://github.com/DavidCLi/SupplyChain-Coffee-Ethereum/blob/master/pics/Validate.JPG)    
+![image](https://github.com/DavidCLi/SupplyChain-Coffee-Ethereum/blob/master/pics/Farmer1.JPG)  
+![image](https://github.com/DavidCLi/SupplyChain-Coffee-Ethereum/blob/master/pics/Farmer2.JPG)  
+![image](https://github.com/DavidCLi/SupplyChain-Coffee-Ethereum/blob/master/pics/Farmer3.JPG)  
+![image](https://github.com/DavidCLi/SupplyChain-Coffee-Ethereum/blob/master/pics/Farmer4.JPG)  
+![image](https://github.com/DavidCLi/SupplyChain-Coffee-Ethereum/blob/master/pics/Distributor.JPG)  
+![image](https://github.com/DavidCLi/SupplyChain-Coffee-Ethereum/blob/master/pics/Retailer.JPG)  
+![image](https://github.com/DavidCLi/SupplyChain-Coffee-Ethereum/blob/master/pics/Consumer.JPG)  
+****
+### Quick Start
+    npm install
+    truffle compile
+    truffle migrate --network development  --reset --all / truffle migrate --network rinkeby  --reset --all
+    truffle test
+    npm run dev
 ****
 **Project Details**  
 Truffle v5.0.28 (core: 5.0.28)  
