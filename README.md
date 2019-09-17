@@ -23,6 +23,30 @@ A supplychain smart contract written in Solidity and deployed on the Rinkeby tes
 **Data Model**  
 ![image](https://github.com/DavidCLi/SupplyChain-Coffee-Ethereum/blob/master/Project%20write-up/Data_Model.jpg)  
 ****
+**Contract Functions**  
+--- 
+### Access Control
+    Access control is implemented by contracts found within the "coffeeaccesscontrol" directory that are inherited by the supplychain.  
+    Consisting of four contracts for each actor of the supplychain (Farmer,Distributor,Retailer and Consumer).
+  
+### Supplychain  
+### 1. Farmer    
+    harvestItem  
+    processItem  
+    packItem  
+    sellItem  
+### 2. Distributor      
+    buyItem  
+    shipItem  
+### 3. Retailer        
+    receiveItem  
+### 4. Consumer        
+    purchaseItem  
+  
+****
+**Frontend**  
+--- 
+****
 **Project Details**  
 Truffle v5.0.28 (core: 5.0.28)  
 Solidity v0.5.0 (solc-js)  
